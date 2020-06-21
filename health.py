@@ -5,7 +5,8 @@ print(health)
 while True:
     health = int(input("Enter your player health :"))
     sleep(0.5)
-    difficulty = int(input("Enter the difficulty of incresing the player health :"))
+    difficulty = int(input("Enter the difficulty of incresing the player health []:"))
     sleep(0.5)
     print("...........Generating...........")
-    potion_health = int(randint(25,50) / difficulty)
+    potion_health = int(randint(25,50))
+    new_health = potion_health / difficulty
