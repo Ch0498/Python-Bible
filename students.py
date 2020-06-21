@@ -10,4 +10,5 @@ print(students["Dan"]["age"])
 print(students["Emma"]["id"], students["Emma"]["grade"])
 
 while True:
-    input = ("Which student do you want?")
+    student = input('Which student you want?')
+    print(students[student]["id"]["age"]["grade"])
