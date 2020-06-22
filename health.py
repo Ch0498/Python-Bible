@@ -1,7 +1,6 @@
 from random import randint
 from time import sleep
 
-print(health)
 while True:
     health = int(input("Enter your player health :"))
     sleep(0.5)
