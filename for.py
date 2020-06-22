@@ -4,8 +4,9 @@ students = {
     "female":["Sarah", "Huda", "Samantha", "Emily", "Elizabeth"]
     }
 
-for key in students.keys():
-    for name in students[key]:
-        if "a" in name:
-            print(name)
-
+while True:
+    search = input("Enter a Letter to find the students havivng that letter coman in them")
+    for key in students.keys():
+        for name in students[key]:
+            if search in name:
+                print(name)
