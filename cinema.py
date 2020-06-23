@@ -35,8 +35,8 @@ films = {
     
     ###
     
-    "Angry Birds" :
-    "Angry Birds 2" :
+    "Angry Birds" : [10, 5],
+    "Angry Birds 2" : [10, 5]
     }
 
 while True:
