@@ -21,7 +21,10 @@ films = {
     "Avengers: Endgame" : [13, 5],
     "Spiderman: Far from home" : [13, 5],
     # Kids Movies
-    
+    "Toy Story 1" 
+    "Toy Story 2"
+    "Toy Story 3"
+    "Toy Story 4"
     }
 
 while True:
