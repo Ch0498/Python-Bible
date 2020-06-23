@@ -3,6 +3,9 @@ films = {
     "Bourne": [18,5],
     "Tarzan": [15,5],
     "Ghost Busters":[12, 5]
+    "Iron Man 1"
+    "Iron Man 2"
+    "Iron Man 3"
     }
 
 while True:
