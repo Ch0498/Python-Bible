@@ -29,8 +29,14 @@ films = {
     "Toy Story 4" : [8, 5],
     
     ###
-    "The Incredibles"
-    "The Incredibles 2"
+    
+    "The Incredibles" : [12, 5],
+    "The Incredibles 2" : [12, 5],
+    
+    ###
+    
+    "Angry Birds" :
+    "Angry Birds 2" :
     }
 
 while True:
