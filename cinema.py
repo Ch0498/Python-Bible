@@ -3,9 +3,12 @@ films = {
     "Bourne": [18,5],
     "Tarzan": [15,5],
     "Ghost Busters":[12, 5]
-    "Iron Man 1"
-    "Iron Man 2"
-    "Iron Man 3"
+    "Iron Man 1" : [13, 5]
+    "Iron Man 2" : [13, 5]
+    "Iron Man 3" : [13, 5]
+    "Captain America, The First Avenger"
+    "Captain America, The Winter Soldier"
+    "Captian America, Civil War"
     }
 
 while True:
