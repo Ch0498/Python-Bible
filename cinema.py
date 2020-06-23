@@ -23,9 +23,7 @@ films = {
     }
 
 while True:
-
     choice = input("What film would you like to watch?: ").strip().title()
-
     if choice in films:
         age = int(input("How old are you?: ").strip())
 
@@ -33,9 +31,7 @@ while True:
 
         if age >= films[choice][0]:
             # check enough seats
-
             num_seats = films[choice][1]
-
             if num_seats > 0:
                 print("Enjoy the film!")
                 films[choice][1] = films[choice][1] - 1
@@ -45,4 +41,4 @@ while True:
             print("You are too young to see that film!")
     else:
         print("We don't have that film...")
-    
+        
