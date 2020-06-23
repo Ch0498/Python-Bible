@@ -9,6 +9,12 @@ films = {
     "Captain America, The First Avenger"
     "Captain America, The Winter Soldier"
     "Captian America, Civil War"
+    "Thor"
+    "Thor Ragnorok"
+    ""
+    "Avengers"
+    "Marvel's Avengers"
+    
     }
 
 while True:
