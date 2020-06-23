@@ -4,7 +4,7 @@ films = {
     "Tarzan": [15,5],
     "Ghost Busters":[12, 5]
     # Marvel
-    "Captain America: The Winter Soldier" : [13, 5]
+    
     "Captian America: Civil War" : [13, 5]
     "Thor" : [13, 5]
     "Thor: Ragnorok" : [13, 5]
