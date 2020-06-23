@@ -1,10 +1,10 @@
 films = {
-    "Finding Dory": [3,5],
-    "Bourne": [18,5],
-    "Tarzan": [15,5],
-    "Ghost Busters":[12, 5]
     # Marvel
-    
+    "Iron Man 1"
+    "Iron Man 2"
+    "Iron Man 3"
+    "Captain America: The First Avenger"
+    "Captain America: The Winter Soldier"
     "Captian America: Civil War" : [13, 5]
     "Thor" : [13, 5]
     "Thor: Ragnorok" : [13, 5]
