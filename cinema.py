@@ -11,6 +11,8 @@ films = {
     "Thor: The Dark World" : [13, 5],
     "Avengers Assemble" : [13, 5],
     "Marvel's Avengers" : [13, 5],
+    "Guardians of Galaxy" : [13, 5]
+    "Guardians of Galaxy" : [13, 5]
     "Spiderman: Homecoming" : [13, 5],
     "Ant-Man" : [13, 5],
     "Ant-Man and The Wasp" : [13, 5],
@@ -20,7 +22,7 @@ films = {
     "Avengers: Infinity War" : [13, 5],
     "Avengers: Endgame" : [13, 5],
     "Spiderman: Far from home" : [13, 5],
-    
+        
     # Kids Movies
     
     "Toy Story 1" : [8, 5],
