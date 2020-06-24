@@ -1,6 +1,9 @@
+from time import sleep
+
 print ("                                                  COMPARER")
 
 num1 = input("Enter the first number :")
+sleep(0.5)
 num2 = input("Enter the second number :")
 res1 = "{} is greater than {}".format(num1,num2)
 res2 = "{} is greater than {}".format(num2,num1)
