@@ -8,6 +8,7 @@ while True:
     sleep(0.5)
     # slice domain name
     domain = email[email.index("@") + 1 :]
+    sleep(0.5)
     # format message
     output = "Your username is {} and your domain name is {}".format(user, domain)
     # display output message 
