@@ -1,7 +1,6 @@
 from time import sleep
 
 while True:
-
     num1 = input("Enter the first number :")
     sleep(0.5)
     num2 = input("Enter the second number :")
