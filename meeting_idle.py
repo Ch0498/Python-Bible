@@ -10,4 +10,3 @@ elif num1 < num2:
     print(res2)
 else: 
     print("Both are equal.")
-l = input(" ")
