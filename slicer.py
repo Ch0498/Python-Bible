@@ -5,6 +5,7 @@ while True:
     sleep(0.5)
     # slice out user name
     user = email[:email.index("@")]
+    sleep(0.5)
     # slice domain name
     domain = email[email.index("@") + 1 :]
     # format message
