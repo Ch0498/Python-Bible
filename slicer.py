@@ -1,7 +1,6 @@
 from time import sleep
 
 while True:
-    
     email = input("What is your email address?: ").strip()
     sleep(0.5)
     # slice out user name
