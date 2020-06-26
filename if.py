@@ -1,18 +1,13 @@
-num1 = 500
-num2 = 500
-
+print ("                                                  COMPARER")
+print ("                                                                                               by Navdeep")
+num1 = input("Enter the first number :")
+num2 = input("Enter the second number :")
+res1 = "{} is greater than {}".format(num1,num2)
+res2 = "{} is greater than {}".format(num2,num1)
 if num1 > num2:
-    print("num1 is bigger than num2")
-elif num2 > num1:
-    print("num2 is bigger than num1")
-else:
-    print("Both numbers are equal")
-
-if condition:
-    code
-elif condition2:
-    code2
-elif condition3:
-    code3
-else:
-    code4
+    print(res1)
+elif num1 < num2:
+    print(res2)
+else: 
+    print("Both are equal.")
+l = input(" ")
