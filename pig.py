@@ -1,15 +1,11 @@
+while True:
+
 # get sentence from user
-
 original = input("Please enter a sentence: ").strip().lower()
-
 # split sentence into words
-
 words = original.split()
-
 # loop through words and convert to pig latin
-
 new_words = []
-
 for word in words:
     if word[0] in "aeiou":
         new_word = word + "yay"
