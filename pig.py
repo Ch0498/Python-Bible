@@ -1,5 +1,6 @@
-while True:
+from time import sleep
 
+while True:
     # get sentence from user
     original = input("Please enter a sentence: ").strip().lower()
     # split sentence into words
@@ -27,5 +28,5 @@ while True:
     output = " ".join(new_words) 
 
     # output the final string
-
+    sleep(0.5)
     print(output)
