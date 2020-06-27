@@ -1,3 +1,5 @@
+from time import sleep
+
 films = {
     # Marvel Cinematic Universe
     "Iron Man 1" : [13, 5],
@@ -44,8 +46,10 @@ films = {
 while True:
 
     choice = input("What film would you like to watch?: ").strip().title()
+    sleep(0.5)
     if choice in films:
         age = int(input("How old are you?: ").strip())
+        sleep(0.5)
         # check user age
         if age >= films[choice][0]:
             # check enough seats
@@ -53,11 +57,15 @@ while True:
 
             if num_seats > 0:
                 print("Enjoy the film!")
+                sleep(0.5)
                 films[choice][1] = films[choice][1] - 1
             else:
                 print("Sorry, we are sold out!")
+                sleep(0.5)
         else:
             print("You are too young to see that film!")
+            sleep(0.5)
     else:
         print("We don't have that film...")
+        sleep(0.5)
     
