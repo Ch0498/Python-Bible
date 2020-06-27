@@ -10,7 +10,7 @@ while True:
     potion_health = randint(25,50)
     new_health = potion_health / difficulty
     new_health = int(new_health)
-    
+    ######
     final_health = new_health + health
     
     print("Player Health = {}".format(final_health))
