@@ -15,3 +15,4 @@ while True:
     else: 
         print("Both are equal.")
         sleep(0.5)
+# End
